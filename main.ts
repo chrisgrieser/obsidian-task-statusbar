@@ -35,7 +35,7 @@ export default class TaskStatusBar extends Plugin {
 
 			const overallTasks = completedTasks + openTasks;
 
-			newText = completedTasks + "/"+ overallTasks + " tasks";
+			if (overallTasks) newText = completedTasks + "/"+ overallTasks + " tasks";
 		}
 		this.taskInStatusBar.setText(newText);
 	};
