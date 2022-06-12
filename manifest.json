@@ -1,9 +1,9 @@
 {
-	"id": "{{plugin-id}}",
-	"name": "{{plugin-name}}",
+	"id": "obsidian-task-statusbar",
+	"name": "Task Statusbar",
 	"version": "0.1.0",
 	"minAppVersion": "0.13.19",
-	"description": "{{plugin-desc}}",
+	"description": "Displays the number of completed and total tasks in the status bar.",
 	"author": "pseudometa",
 	"authorUrl": "https://chris-grieser.de/",
 	"isDesktopOnly": false

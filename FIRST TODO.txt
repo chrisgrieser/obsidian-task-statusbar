@@ -1,8 +1,8 @@
-Replace throughout the repo: 
-{{plugin-name}}
-{{plugin-id}}
-{{plugin-desc}}
-{{plugin-class}}
+Replace throughout the repo:
+Task Statusbar
+obsidian-task-statusbar
+Displays the number of completed and total tasks in the statusbar.
+TaskStatusbar
 
 ---
 
@@ -14,9 +14,9 @@ to copypaste into the obsidian releases json:
 
     },
     {
-        "id": "{{plugin-id}}",
-        "name": "{{plugin-name}}",
+        "id": "obsidian-task-statusbar",
+        "name": "Task Statusbar",
         "author": "pseudometa",
-        "description": "{{plugin-desc}}",
-        "repo": "chrisgrieser/{{plugin-id}}"
+        "description": "Displays the number of completed and total tasks in the statusbar.",
+        "repo": "chrisgrieser/obsidian-task-statusbar"
     }
