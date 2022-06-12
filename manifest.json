@@ -1,7 +1,7 @@
 {
 	"id": "obsidian-task-statusbar",
 	"name": "Task Statusbar",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"minAppVersion": "0.13.19",
 	"description": "Displays the number of completed and total tasks in the status bar.",
 	"author": "pseudometa",
