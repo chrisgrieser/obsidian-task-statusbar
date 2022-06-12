@@ -1,6 +1,6 @@
 # Task Status Bar
 
-<!-- ![](https://img.shields.io/github/downloads/chrisgrieser/obsidian-task-statusbar/total?label=Total%20Downloads&style=plastic) ![](https://img.shields.io/github/v/release/chrisgrieser/obsidian-task-statusbar?label=Latest%20Release&style=plastic) [![](https://img.shields.io/badge/changelog-click%20here-FFE800?style=plastic)](Changelog.md) -->
+![](https://img.shields.io/github/downloads/chrisgrieser/obsidian-task-statusbar/total?label=Total%20Downloads&style=plastic) ![](https://img.shields.io/github/v/release/chrisgrieser/obsidian-task-statusbar?label=Latest%20Release&style=plastic) [![](https://img.shields.io/badge/changelog-click%20here-FFE800?style=plastic)](Changelog.md)
 
 Obsidian plugin that displays the number of completed and total tasks in the status bar. That's it, that's the plugin.
 
