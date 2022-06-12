@@ -23,8 +23,8 @@ export default class TaskStatusBar extends Plugin {
 	async onunload() { console.log("Task Status Bar Plugin unloaded.") }
 
 	countTasks = () => {
+		const statusBarStr = "[x]";
 		const mdView = this.app.workspace.getActiveViewOfType(MarkdownView);
-
 		const countMatches = (regex: RegExp, str: string) => (str.match(regex) || []).length;
 		let newText = "";
 
@@ -35,7 +35,7 @@ export default class TaskStatusBar extends Plugin {
 
 			const overallTasks = completedTasks + openTasks;
 
-			if (overallTasks) newText = completedTasks + "/"+ overallTasks + " tasks";
+			if (overallTasks) newText = completedTasks + "/"+ overallTasks + " " + statusBarStr;
 		}
 		this.taskInStatusBar.setText(newText);
 	};
